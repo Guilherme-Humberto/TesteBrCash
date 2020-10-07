@@ -1,0 +1,128 @@
+div#container-list-drinks {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% auto;
+    width: 70%;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+div#container-nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+
+#back-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-family: Raleway;
+}
+
+p#title-letter {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+
+div#teste2 {
+    display: flex;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+}
+
+div#icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30% 10px; 
+}
+
+p#drink-name {
+    font-family: Raleway;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+button#btn-icon {
+    background: transparent;
+    border: transparent;
+    outline: none;
+}
+
+div#button-content-drink {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: center;
+}
+
+button#btn-new-drink {
+    outline: none;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #000
+}
+
+p#btn-text-add {
+    font-family: Raleway;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Adicionar novo drink */
+
+div#container-add-drink {
+    margin: 2% auto
+}
+
+p#title-letter-add-drink {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Raleway;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: Raleway;
+    font-size: 25px;
+}
+
+input {
+    margin: 10px 0;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: transparent;
+}
+
+textarea#list-ingredients {
+    margin: 10px 0;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    background: #fff;
+    border: transparent;
+    resize: none;
+}
+
+button#btn-add-drink {
+    height: 40px;
+    width: 150px;
+    background: #fff;
+    border: transparent;
+    font-family: Raleway;
+    font-size: 20px;
+}
